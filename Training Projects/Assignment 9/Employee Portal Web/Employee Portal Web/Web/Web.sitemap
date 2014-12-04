@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Start"  description="" roles="*">
+    <siteMapNode title="Employee Portal" description="" roles="User,Admin">
+      <siteMapNode url="Default.aspx" title="Home" description="" />
+      <!--<siteMapNode url="IssueTracker/ViewIssueDetail.aspx" title="IssueDetail" description="" />-->
+     
+      <siteMapNode url="Employee/EditEmployee.aspx" title="Edit My Profile" description="" />
+      <siteMapNode url="Employee/SearchEmployee.aspx" title="Employee Search" description="" />
+      <siteMapNode url="IssueTracker/AddNewIssue.aspx" title="Post New Issue" description="" />
+    </siteMapNode>
+    <siteMapNode title="Admin" description="" roles="Admin">
+      <siteMapNode url="Employee/ManageEmployees.aspx" title="Manage Employees" description="" />
+      <siteMapNode url="NoticeBoard/ManageNotices.aspx" title="Manage Notices" description="" />
+      <siteMapNode url="IssueTracker/ManageIssues.aspx" title="Manage Issues" description="" />
+      <siteMapNode url="NoticeBoard/AddNewNotice.aspx" title="Add Notice" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,48 @@
+<%@ Master AutoEventWireup="true" Codebehind="PortalTemplate.master.cs" Inherits="Web.PortalTemplate"
+    Language="C#" %>
+<%@ Register Src="Controls/HeaderControl.ascx" TagName="HeaderControl" TagPrefix="EP" %>
+<%@ Register Src="Controls/MenuControl.ascx" TagName="MenuControl" TagPrefix="EP" %>
+<%@ Register Src="Controls/FooterControl.ascx" TagName="FooterControl" TagPrefix="EP" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Employee Portal</title>
+</head>
+<body>
+    <form id="mainForm" runat="server" style="padding: 0px; margin: 0px;">
+        <div align="center">
+            <table cellpadding="0" cellspacing="6" width="900">
+                <tr>
+                    <td colspan="2">
+                        <!--Header Area Start-->
+                        <EP:HeaderControl ID="padeHeaderControl" runat="server" />
+                        <!--Header Area End-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="leftMenu" valign="top" width="150" style="height: 450px">
+                        <!--Left Menu Area Start-->
+                        <EP:MenuControl ID="pageMenuControl" runat="server" />
+                        <!--Left Menu Area End-->
+                    </td>
+                    <td valign="top" width="750" style="height: 450px">
+                        <!--Content Area Start-->
+                        <div align="left">
+                            <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+                            </asp:ContentPlaceHolder>                           
+                        </div>
+                        <!--Content Area End-->
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <!--Footer Area Start-->
+                        <EP:FooterControl ID="pageFooterControl" runat="server" />
+                        <!--Footer Area End-->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

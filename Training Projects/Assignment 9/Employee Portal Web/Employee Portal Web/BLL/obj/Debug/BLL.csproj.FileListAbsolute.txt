@@ -1,0 +1,7 @@
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\bin\Debug\BLL.dll
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\bin\Debug\BLL.pdb
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\bin\Debug\DataLayer.dll
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\bin\Debug\DataLayer.pdb
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\obj\Debug\BLL.dll
+C:\Users\garvsachdeva\Documents\Visual Studio 2012\Projects\BLL\obj\Debug\BLL.pdb

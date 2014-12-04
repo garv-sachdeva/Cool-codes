@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFormsApp", "..\WFormsApp\WFormsApp\WFormsApp.csproj", "{CEF7EFD7-CE0F-442E-B7EA-099FEDE41998}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B445FCB-7D6C-4C4F-A346-D02182ACC159} = {6B445FCB-7D6C-4C4F-A346-D02182ACC159}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "..\WebApp\WebApp.csproj", "{EBD99DF9-EAA7-478B-88BB-0E30472C211E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer.csproj", "{6B445FCB-7D6C-4C4F-A346-D02182ACC159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF7EFD7-CE0F-442E-B7EA-099FEDE41998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF7EFD7-CE0F-442E-B7EA-099FEDE41998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF7EFD7-CE0F-442E-B7EA-099FEDE41998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF7EFD7-CE0F-442E-B7EA-099FEDE41998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD99DF9-EAA7-478B-88BB-0E30472C211E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD99DF9-EAA7-478B-88BB-0E30472C211E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD99DF9-EAA7-478B-88BB-0E30472C211E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD99DF9-EAA7-478B-88BB-0E30472C211E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B445FCB-7D6C-4C4F-A346-D02182ACC159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B445FCB-7D6C-4C4F-A346-D02182ACC159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B445FCB-7D6C-4C4F-A346-D02182ACC159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B445FCB-7D6C-4C4F-A346-D02182ACC159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
